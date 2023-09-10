@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  font-family: "Source Serif 4", sans-serif;
+}
+nav #logo-title {
+  display: flex;
+  flex-direction: row;
+}
+nav #logo-title #logo {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 0.4rem;
+}
+nav #logo-title #title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 0;
+}
+nav #nav {
+  display: flex;
+  flex-direction: row;
+}
+nav #nav p {
+  margin: 5px 10px;
+  color: #000;
+  font-weight: 400;
+}
+nav #nav .active-nav {
+  font-weight: 600;
+  color: #101c45 !important;
+}
+nav #login-booknow {
+  display: flex;
+  flex-direction: row;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+nav #login-booknow p {
+  margin: 0 10px;
+}
+nav #login-booknow #booknow {
+  border: 1px solid black;
+  padding: 2px 5px;
+}/*# sourceMappingURL=Nav.css.map */

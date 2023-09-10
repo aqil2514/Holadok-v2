@@ -1,0 +1,22 @@
+#background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  #back-dokter,
+  #dokter {
+    position: absolute;
+    right: 0;
+  }
+
+  #back-dokter {
+    width: 590px;
+    height: 847px;
+  }
+
+  #dokter {
+    width: 530px;
+    height: 794px;
+  }
+}

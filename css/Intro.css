@@ -1,0 +1,28 @@
+#intro {
+  position: relative;
+  top: 65px;
+  left: 100px;
+  width: 457px;
+  height: 391px;
+}
+#intro p {
+  font-family: "DM Sans", sans-serif;
+}
+#intro p:first-child {
+  font-weight: bold;
+  font-size: 48px;
+  color: #101c45;
+}
+#intro p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+}
+#intro button {
+  font-size: 18px;
+  font-family: "Source Serif 4", sans-serif;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-color: #fff;
+  background-color: #203271;
+  color: #fff;
+}/*# sourceMappingURL=Intro.css.map */

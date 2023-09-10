@@ -1,0 +1,32 @@
+#footer {
+  display: flex;
+  margin: 220px 50px 20px;
+  padding: 20px;
+  width: 93%;
+  background-color: #203271;
+
+  .fiture {
+    display: grid;
+    grid-template-areas:
+      "Icon Title"
+      "Icon Desc";
+    grid-template-rows: 45px 90px;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+
+    img {
+      grid-area: Icon;
+    }
+
+    .fiture-title {
+      margin-left: 5px;
+      grid-area: Title;
+      font-weight: bold;
+    }
+
+    .fiture-desc {
+      grid-area: Desc;
+      opacity: 0.8;
+    }
+  }
+}

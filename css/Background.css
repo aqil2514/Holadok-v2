@@ -1,0 +1,19 @@
+#background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+#background #back-dokter,
+#background #dokter {
+  position: absolute;
+  right: 0;
+}
+#background #back-dokter {
+  width: 590px;
+  height: 847px;
+}
+#background #dokter {
+  width: 530px;
+  height: 794px;
+}/*# sourceMappingURL=Background.css.map */
